@@ -25,9 +25,9 @@
     <div>
         <h2>Сборка и запуск</h2>        
         <h3>Запуск:</h3>
-        <pre>./dependency_analyzer --package &lt;имя пакета&gt; --repo &lt;URL или путь&gt; --test-mode &lt;real|test&gt; --version &lt;версия&gt; --filter &lt;подстрока&gt;</pre>
+        <pre>main.exe --package &lt;имя пакета&gt; --repo &lt;URL или путь&gt; --test-mode &lt;real|test&gt; --version &lt;версия&gt; --filter &lt;подстрока&gt;</pre>
         <h3>Пример использования:</h3>
-        <pre>./dependency_analyzer --package my-package --repo http://repo.com --test-mode real --version 1.0.0 --filter test</pre>
+        <pre>main.exe --package my-package --repo http://repo.com --test-mode real --version 1.0.0 --filter test</pre>
     </div>
     <div>
         <h2>Примеры вывода</h2>
